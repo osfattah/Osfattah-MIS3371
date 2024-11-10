@@ -1,0 +1,111 @@
+/*
+    Name: Osman Fattah
+    Date Last Update: 10-19-24
+    Purpose: Homework 2 css Form
+    */
+    header{
+        width:100%;
+        background-color: rgba(150, 200, 200, 0.442);
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(100, 200, 155, 0.422);
+        margin:0;
+        height: 100%;
+        min-height: 100vh; /*to ensure height is proper*/
+
+    }
+    form{
+        flex-grow: 1;
+
+    }
+    h1, h2 {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: normal;
+        flex-grow: 1;
+    }
+    main {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: normal;
+        flex-grow: 1;
+    }
+    .image{
+        text-align: left;
+    }
+    .td1 {
+        text-align: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        
+    }
+    footer{
+        position: flex;
+        bottom: 0;
+        width: 100%;
+        background-color:rgba(150, 200, 200, 0.442);
+        height: 3 rem;
+    }
+    #footer{
+        text-align: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        margin-right: 13 px;
+    }
+    label{
+        text-align: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+    }
+    input{
+        text-align: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+    }
+    textarea{
+        text-align: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+    }
+    .error{
+        color: red;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: normal;
+
+    }
+    .password-message {
+        text-align: right;
+        font-style: italic;
+        font-weight: normal;
+        position: relative;
+        left: 100px;
+        background: transparent;
+        padding: 15px;
+        border-radius: 20px;
+        color:red;
+
+    }
+    #review {
+        margin-top: 5px;
+
+    }
+    table.output,
+    tr.output,
+    td.output {
+        width: 500px;
+        background-color: aqua;
+        padding: 10px;
+        border-spacing: 2px;
+        border-radius: 20px;
+        color: black;
+    }
+    td.output {
+        width:500px;
+        background-color: aqua;
+        padding: 10px;
+        border-spacing: 2px;
+    }
